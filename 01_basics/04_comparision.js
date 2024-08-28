@@ -24,7 +24,3 @@ console.log(undefined < 0);  //false
 // not only value but also data type is also checked
 console.log("2" == 2);  //true bcoz conversion ho jata hai 
 console.log("2" === 2);  //false bcoz yaha data type bhi check hota hai (yaha conversion nhi hota hai)
-
-
-
-
