@@ -47,3 +47,26 @@ let myTimeStamp = Date.now()
 console.log(myTimeStamp);
 // 1725027484860   :: O/P is in millisecond
 
+console.log(myTimeStamp);
+console.log(myCreatedDate3.getTime());
+//myCreatedDate3 ka time return hoga 1st january se in millisecond (can be used to compare two dates)
+
+console.log(Math.floor(Date.now()/1000));
+//converts in seconds and rounds off the value
+
+let newDate = new Date()
+console.log(newDate);
+console.log(newDate.getDate());
+//like this there are many different methods for geeting different parameters.
+
+console.log(newDate.getMonth() + 1);
+// as month starts from 0 in JS , so +1 is done and printed.
+
+// `${newDate.getDate()} and the time is ${}`
+
+newDate.toLocaleString('default',{
+    weekday: "long",
+    timeZone: "GMT+5:30"
+})
+//internationalization , object in whuch we can define what exactly we want (ctrl + space to list all property)
+
